@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import './tasks-filter.css'
 import propTypes from 'prop-types'
-
 export default class TasksFilter extends Component {
   render() {
     const { filter, setFilter } = this.props
