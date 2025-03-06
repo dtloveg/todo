@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { formatDistanceToNow } from 'date-fns'
-
 import propTypes from 'prop-types'
 
 export default class TaskItem extends Component {
