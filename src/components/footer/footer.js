@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './footer.css'
 import propTypes from 'prop-types'
 import TasksFilter from '../tasks-filter'

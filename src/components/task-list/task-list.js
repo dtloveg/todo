@@ -1,6 +1,7 @@
 import React from 'react'
-import TaskItem from '../task/task'
+
 import propTypes from 'prop-types'
+import TaskItem from '../task/task'
 import './task-list.css'
 
 const TaskList = ({ tasks, onDeleted, onToggleComplete, onToggleEdit, updateTaskDescription }) => {
